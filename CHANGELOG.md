@@ -1,3 +1,7 @@
+## 3.0.2 (2024-05-19)
+
+This was a version bump only, there were no code changes.
+
 ## 3.0.1 (2024-05-19)
 
 This was a version bump only, there were no code changes.
