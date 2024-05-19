@@ -15,8 +15,16 @@
         }
     },
     "release": {
+        "projectsRelationship": "independent",
+        "projects": [
+            "first-package",
+            "second-package"
+        ],
         "version": {
             "preVersionCommand": "npx nx run-many -t build"
+        },
+        "changelog": {
+            "projectChangelogs": true
         }
     }
 }

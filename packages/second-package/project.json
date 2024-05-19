@@ -3,6 +3,9 @@
     "name": "second-package",
     "sourceRoot": "packages/second-package/src",
     "projectType": "library",
+    "implicitDependencies": [
+        "utility"
+    ],
     "targets": {
         "build": {
             "executor": "@nx/esbuild:esbuild",

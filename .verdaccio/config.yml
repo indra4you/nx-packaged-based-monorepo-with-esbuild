@@ -5,7 +5,7 @@ storage: ../tmp/local-registry/storage
 uplinks:
   npmjs:
     url: https://registry.npmjs.org/
-      maxage: 60m
+    maxage: 60m
 
 packages:
   '**':
@@ -15,14 +15,14 @@ packages:
     publish: $all
     unpublish: $all
 
-# if package is not available locally, proxy requests to npm registry
-proxy: npmjs
+    # if package is not available locally, proxy requests to npm registry
+    proxy: npmjs
 
 # log settings
 logs:
   type: stdout
-    format: pretty
-      level: warn
+  format: pretty
+  level: warn
 
 publish:
   allow_offline: true # set offline to true to allow publish offline

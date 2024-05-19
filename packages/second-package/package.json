@@ -1,6 +1,6 @@
 {
     "name": "second-package",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "private": false,
     "dependencies": {
         "first-package": "file:../first-package"
